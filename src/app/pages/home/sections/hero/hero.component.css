@@ -99,8 +99,8 @@ html, body {
   font-size: 1rem;
   font-style: italic;
   color: white;
-  padding: 5px 10px;
-  margin-right: 20px;
+  padding: 5px 0px;
+  margin-right: 2px;
   white-space: nowrap;
 }
 
