@@ -325,6 +325,7 @@ span.small-txt {
     line-height: normal;
     text-transform: capitalize;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .hero_section {
