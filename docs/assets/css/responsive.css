@@ -40,6 +40,9 @@
 }
 
 @media only screen and (max-width: 991px) and (min-width: 300px) {
+  .full_heading>h2{
+    text-align: center;
+  }
   .ceo_desk {
     padding-top: 10px;
 }
