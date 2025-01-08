@@ -104,14 +104,14 @@ html, body {
   white-space: nowrap;
 }
 
-@keyframes scroll {
+/* @keyframes scroll {
   from {
     transform: translateX(50%);
   }
   to {
     transform: translateX(-50%);
   }
-}
+} */
 
 @media (max-width: 320px) {
   .main-title {
