@@ -1,0 +1,886 @@
+.sub_banner {
+    height: 335px;
+}
+
+.full_heading {
+    height: 335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full_heading>h2 {
+    margin-top: 60px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.inner_page_sections {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.full_content>h2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.45px;
+    margin-bottom: 30px;
+}
+
+.full_content>h2>span {
+    color: #45B5FF;
+    font-family: "Playfair Display";
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: -0.45px;
+}
+
+.full_content>p {
+    color: #191E24;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 28.8px */
+    letter-spacing: -0.18px;
+    margin-bottom: 0;
+}
+
+.inner_page_sections {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner_page_content_section {
+    margin-bottom: 30px;
+}
+
+.inner_page_sections {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner_page_content_section {
+    margin-bottom: 30px;
+}
+
+.faculty_text {
+    border-radius: 10px;
+    background: #FFF;
+    padding: 20px;
+}
+
+.faculty_text {}
+
+.faculty_text>p {
+    margin-bottom: 0;
+    color: #08080866;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faculty_text>h4 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 6px;
+}
+
+
+.faculty_img>img {
+    width: 100%;
+}
+
+
+.faculty_cards {
+    position: relative;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.faculty_text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+/*events*/
+.date>h4 {
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.date {
+    border-radius: 8px 8px 0px 0px;
+    background: #FFF;
+}
+
+.year>h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    margin-bottom: 0;
+}
+
+.calender_box .year {
+    border-radius: 0px 0px 8px 8px;
+    background: #214BA1;
+}
+
+.calender_box {
+    width: 90px;
+}
+
+.faculty_img.event_rel {
+    position: relative;
+}
+
+.calender_box {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    z-index: 999;
+}
+
+.faculty_text.static {
+    position: static;
+}
+
+.faculty_cards.ev_cards {
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.14);
+}
+
+/*alumini_page*/
+.alumini_card_img img {
+    width: 100%;
+}
+
+.inner_notable_content>h4 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.2px;
+}
+
+.inner_notable_content>h2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.35px;
+    margin-bottom: 20px;
+}
+
+.alumini_card {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.nt_card_content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -290px;
+    padding: 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.alumini_card:hover .nt_card_content {
+    top: 0;
+    background: #2C5EC5;
+    bottom: 0;
+}
+
+.nt_list>ul {
+    padding-left: 15px;
+}
+
+.nt_list>ul>li {
+    margin-bottom: 20px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+    letter-spacing: -0.16px;
+    text-transform: lowercase;
+}
+
+.padding-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/*school activities*/
+.full_header {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+
+span.header_logo {
+    /* position: relative; */
+    width: 100%;
+    background: #fff;
+}
+
+span.header_logo::after {
+    content: '';
+    right: 0;
+    left: 0;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.19);
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+
+span.header_logo>img {
+    position: relative;
+    background: #fff;
+    z-index: 9;
+}
+
+.school_content>h4 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.school_content>p {
+    color: #191E24;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 28.8px */
+    margin-bottom: 0px;
+}
+
+.school_content {
+    margin-bottom: 50px;
+}
+
+.full_header {
+    margin-bottom: 40px;
+}
+
+.img_wraper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.img_wraper img {
+    width: 100%;
+    border-radius: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img_wraper:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.img_wraper .img_text {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    background: #fff;
+    text-align: center;
+    color: #000;
+}
+
+/* .inner_header {
+    background-image: url(../img/bls.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+} */
+
+.faq-question>span {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.faq-question>.icon {
+    margin-right: 16px;
+}
+
+.faq-answer {
+    margin-top: 20px;
+}
+
+.faq-item {
+    padding: 24px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.20);
+    cursor: pointer;
+}
+
+.faq-item:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.faq-answer {
+    color: rgba(25, 30, 36, 0.80);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 25.6px */
+    border-left: 4px solid #45B5FF;
+    padding-left: 24px;
+}
+
+.faq-answer {
+    display: none;
+}
+
+.faq_section {
+    padding: 60px 0px;
+}
+
+/*admision process*/
+/* .banner_admision {
+    padding: 100px 0px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 28px;
+} */
+
+.read_more_section.inner_btns {
+    text-align: center;
+}
+
+.read_more_section.inner_btns>a {
+    justify-content: center;
+    color: #fff;
+}
+
+.read_more_section.inner_btns>a>span.text {
+    color: #fff;
+}
+
+.banner_admision>h2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.banner_admision>p {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.inner_page_main_wrapers.page_wrapes {
+    padding: 100px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.admission_img>img {
+    width: 100%;
+}
+
+/*class wisse information*/
+.class_wise_card {
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 7px 12px 0px #DDD;
+}
+
+.class_wise_img>img {
+    width: 100%;
+}
+
+a.class_btn_wrapes {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    /* 28.8px */
+    letter-spacing: -0.18px;
+    border-radius: 64px;
+    background: #2C5EC5;
+    text-decoration: none;
+    padding: 10px 30px;
+    position: absolute;
+    top: -20px;
+}
+
+.class_wise_content>p {
+    color: #343434;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 25.6px */
+    margin-bottom: 0;
+}
+
+.class_wise_content {
+    padding: 40px 20px;
+    position: relative;
+}
+
+/*streams-offered*/
+.streams_ribbon>h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    /* 32px */
+    letter-spacing: -0.2px;
+    margin-bottom: 0;
+}
+
+.streams_ribbon {
+    background: #2C5EC5;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    padding: 20px 0px;
+}
+
+/* Contact Us */
+
+.btn.btn-primary {
+    height: 56px;
+    background: #2C5EC5;
+    border: none;
+}
+
+::placeholder {
+    color: #6c757d;
+    opacity: 0.1;
+}
+
+.details-card .icon {
+    height: 60px;
+    width: 60px;
+    background-color: #2C5EC5;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.details-card .icon>svg {
+    width: 40px;
+    color: #FFF;
+}
+
+.details-card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.details-card h5 {
+    font-weight: 600;
+    margin: 10px 0px 0px 0px;
+}
+
+.contact-details .map {
+    width: 100%;
+}
+
+
+/* Extracurricular activity */
+.slider .card {
+    position: relative;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.slider .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.activity-slider {
+    display: flex;
+    /* To align items horizontally */
+    justify-content: space-between;
+    /* Space between cards */
+    overflow: hidden;
+    /* Hide overflowing content */
+}
+
+.activity-slider .card {
+    flex: 0 0 23%;
+    box-sizing: border-box;
+    margin-right: 1%;
+    text-align: center;
+}
+
+.activity-slider .card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.activity-slider .card h5 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Semi-transparent background */
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    opacity: 0;
+    width: 210px;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.activity-slider .card:hover img {
+    transform: scale(1.1);
+}
+
+.activity-slider .card:hover h5 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.activity-slider .card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(14, 55, 138, 0.00) 39.97%, #0E378A 89.53%);
+    opacity: 0;
+    /* Initially hidden */
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* About us */
+.story-container {
+    position: relative;
+    background: #e9f6ff;
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 450px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
+.story-container .tag {
+    padding: 5px 10px;
+    background-color: #0E378A;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+
+.about-container {
+    /* background: url("../img/school/SchoolBuilding_6.JPG"); */
+    padding: 60px 0px;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+
+    position: relative;
+    background: url('../img/school/SchoolBuilding_6.JPG') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* padding: 0 20px; */
+    color: #fff;
+    background-attachment: fixed;
+}
+
+/* Awards */
+.award-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.award-card img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.card-img-overlay {
+    background: linear-gradient(180deg, rgba(14, 55, 138, 0.00) 39.97%, #0E378A 89.53%);
+    color: white;
+    border-radius: 8px;
+}
+
+.custom-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.custom-header span {
+    color: #007bff;
+    /* Bootstrap primary color */
+    font-style: italic;
+}
+
+.filter-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Enrollment */
+.form-container {
+    background: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+
+/* history */
+.timeline-item {
+    gap: 40px;
+}
+
+.timeline-item {
+    position: relative;
+    padding: 20px 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #dee2e6;
+    transform: translateX(-50%);
+}
+
+.year {
+    font-style: italic;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.timeline-content {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-image {
+    width: 100%;
+    height: 200px;
+    background-color: #dee2e6;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.form-content input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-content input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.form-content button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form-content button:hover {
+    background: #0056b3;
+}
+
+.form-content .link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.form-content .link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-content .link a:hover {
+    text-decoration: underline;
+}
+
+.form-image {
+    flex: 1;
+    background: linear-gradient(135deg, #333, #444);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+/* admission */
+.banner_admision {
+    background-color: #0056b3;
+    color: white;
+    padding: 40px;
+    /* float: left; */
+    border-radius: 16px;
+}
+
+.card {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none;
+    /* text-align: center; */
+}
+
+.card h4 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.card p {
+    color: #555;
+
+}
+
+.img-container img {
+    border-radius: 8px;
+
+}
+
+
+.milestone-title {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.milestone-subtitle {
+    color: rgba(255, 255, 255, 0.8);
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.stat-number {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    color: #e9f6ff;
+    font-size: 0.9rem;
+    text-align: center;
+}
