@@ -1,0 +1,13 @@
+.footer_links>ul{
+    list-style: none;
+    text-align: center;
+}
+.footer_links>ul>li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+.footer_links>ul>li>a{
+    cursor: pointer;
+    font-size: 16px;
+}

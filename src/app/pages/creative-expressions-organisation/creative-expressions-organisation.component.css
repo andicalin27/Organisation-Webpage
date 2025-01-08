@@ -1,0 +1,28 @@
+.point_item h4{
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 35px */
+}
+.point_item p{
+  color: #191E24;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.point_item>ul{
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+.point_item>ul>li{
+  color: #191E24;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}

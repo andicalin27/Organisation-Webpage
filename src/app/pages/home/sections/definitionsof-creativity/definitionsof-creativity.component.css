@@ -1,0 +1,139 @@
+#voices-of-creativity {
+  color: #333;
+  padding: 20px 0;
+  background-color: #e9f6ff;
+}
+
+#voices-of-creativity .headline h1 {
+  font-size: 2.5rem;
+  color: #45B5FF;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#voices-of-creativity .headline h2 {
+  font-size: 1rem;
+  color: #595959;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  background-image: url("https://biancam30.github.io/AWD/static/media/canvas.dd4f6bae4f691183b016.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 15px;
+  color: #333;
+}
+
+.testimonial img {
+  width: 90%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.quote-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #e9f6ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.quote-container p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.testimonial .text-end {
+  color: #45B5FF;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .testimonial {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .testimonial img {
+    width: 80%;
+    max-width: 200px;
+    margin-bottom: 15px;
+  }
+
+  .quote-container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .quote-container p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 320px) {
+  #voices-of-creativity .headline h1 {
+    font-size: 1.8rem;
+  }
+
+  #voices-of-creativity .headline h2 {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+
+  .testimonial {
+    gap: 10px;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .testimonial img {
+    width: 70%;
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+
+  .quote-container {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .quote-container p {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: right;
+  color: #45B5FF;
+}
